@@ -43,16 +43,16 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-# Load Iris dataset
+- Load Iris dataset
 iris = load_iris()
 X = iris.data
 y = iris.target
 
-# Train a Decision Tree Classifier
+- Train a Decision Tree Classifier
 tree = DecisionTreeClassifier()
 tree.fit(X, y)
 
-# Train a Random Forest Classifier
+- Train a Random Forest Classifier
 forest = RandomForestClassifier(n_estimators=100, random_state=42)
 forest.fit(X, y)
 
