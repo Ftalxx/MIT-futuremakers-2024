@@ -10,22 +10,21 @@
 
 In this repository, I explored various optimization algorithms used in deep learning, focusing on their roles, implementations in TensorFlow 2.0, and their application to training neural networks effectively.
 
-- Optimization Algorithms
+## Optimization Algorithms
 
 What is Optimization?
 Optimization involves finding the best solution from a set of options based on a defined metric. In deep learning, this metric is typically a loss function that measures the difference between predicted and actual outcomes.
 
-- How Optimization is Used in Machine Learning:
-  
+How Optimization is Used in Machine Learning:
 Optimization algorithms are crucial in machine learning to adjust model parameters iteratively. The goal is to minimize the loss function, improving the model's predictive accuracy.
 
-- Optimizers and Loss Functions:
+Optimizers and Loss Functions:
 Optimizers adjust model parameters to minimize the loss function. They work in tandem with the loss function, ensuring the model learns efficiently by updating parameters based on the gradient of the loss.
 
-- Gradient Descent:
+Gradient Descent:
 Gradient descent is a fundamental optimization algorithm in deep learning. It updates model parameters in the opposite direction of the gradient of the loss function, scaled by a learning rate.
 
-- Variants of Gradient Descent
+## Variants of Gradient Descent
   
 Batch Gradient Descent (BGD): Uses the entire dataset to compute the gradient.
 Stochastic Gradient Descent (SGD): Computes the gradient using a single random data point.
@@ -51,7 +50,6 @@ SGD with Momentum: Improved SGD using momentum for faster convergence.
 RMSProp: Optimizer suitable for recurrent neural networks (RNNs) and reinforcement learning (RL).
 Adam: Adaptive moment estimation optimizer.
 SGD with Learning Rate Decay: SGD with a decaying learning rate to stabilize training.
-Results and Observations
 
 From the results, Adam generally performed well across different scenarios, while SGD and SGD with momentum also showed competitive performance.
 
