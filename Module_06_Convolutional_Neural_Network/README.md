@@ -46,7 +46,7 @@ Code Snippet
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model.fit(training_images, training_labels, epochs=5)
 
-##Visualizing Filters and Feature Maps
+## Visualizing Filters and Feature Maps
 
 After training, we can visualize the learned filters and feature maps to understand what the network has learned:
 
