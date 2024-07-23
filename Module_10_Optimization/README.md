@@ -12,7 +12,7 @@ In this repository, I explored various optimization algorithms used in deep lear
 
 ## Optimization Algorithms
 
-What is Optimization?
+What is Optimization:
 Optimization involves finding the best solution from a set of options based on a defined metric. In deep learning, this metric is typically a loss function that measures the difference between predicted and actual outcomes.
 
 How Optimization is Used in Machine Learning:
